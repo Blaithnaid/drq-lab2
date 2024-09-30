@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
+    // jsx code, which is similar to html
+    // a bootstrap navbar to link between pages in our app
+    // the links are connected to the routes in App.js
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#">React App</Navbar.Brand>
       <Nav className="mr-auto">

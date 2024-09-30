@@ -13,6 +13,8 @@ import Footer from "./components/Footer.js";
 
 function App() {
   return (
+    // the router component is the parent component for the app
+    // the navigation bar is a child of the router, and is used to navigate between the different routes
     <Router>
       <NavigationBar>
         <Routes>
